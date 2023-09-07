@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNGx | Task 001</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="./scripts/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img
+          data-testid="slackDisplayImage"
+          alt="IEdiong"
+          class="img"
+          src="./images/dp.jpeg"
+        />
+        <h1 data-testid="slackUserName">IEdiong</h1>
+        <p data-testid="myTrack">Frontend</p>
+      </div>
+      <ul class="timing">
+        <li>
+          <span>Day of the week</span>
+          <p data-testid="currentDayOfTheWeek">loading...</p>
+        </li>
+        <li>
+          <span>current UTC Time</span>
+          <p data-testid="currentUTCTime">loading...</p>
+        </li>
+      </ul>
+
+      <a data-testid="githubURL" href="#" class="github-btn"
+        >Github Repo &roarr;</a
+      >
+    </div>
+  </body>
+</html>
